@@ -1,7 +1,11 @@
 name: Check code
 on:
+  push:
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build-linux:
@@ -25,6 +29,7 @@ jobs:
         run: .github/workflows/check.sh
 
       - uses: dprint/check@v2.2
+
   build-macos:
     runs-on: macos-latest
     steps:
@@ -64,7 +69,7 @@ jobs:
       - name: install wget
         shell: bash
         run: choco install wget
-        
+
       - name: Run checks
         shell: bash
         run: .github/workflows/check.sh
