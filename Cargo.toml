@@ -33,7 +33,7 @@ features = ["std", "train", "ndarray", "sqlite-bundled"]
 [dependencies]
 itertools = "0.12.0"
 log = "0.4"
-ndarray = "0.15.6"
+ndarray = "0.16.0"
 ndarray-rand = "0.14.0"
 rand = "0.8.5"
 rayon = "1.8.0"
