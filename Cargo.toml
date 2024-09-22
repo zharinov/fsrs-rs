@@ -17,8 +17,7 @@ description = "FSRS for Rust, including Optimizer and Scheduler"
 [dependencies.burn]
 # version = "0.13.1"
 git = "https://github.com/zharinov/burn.git"
-branch = "v0.13.1+sqlite"
-# rev = "6ae3926006872a204869e84ffc303417c54b6b7f"
+rev = "528ba23247040da4791dcb6aa88d7f364d020b9a"
 # path = "../burn/burn"
 default-features = false
 features = ["std", "train", "ndarray"]
@@ -26,8 +25,7 @@ features = ["std", "train", "ndarray"]
 [dev-dependencies.burn]
 # version = "0.13.1"
 git = "https://github.com/zharinov/burn.git"
-branch = "v0.13.1+sqlite"
-# rev = "6ae3926006872a204869e84ffc303417c54b6b7f"
+rev = "528ba23247040da4791dcb6aa88d7f364d020b9a"
 # path = "../burn/burn"
 default-features = false
 features = ["std", "train", "ndarray", "sqlite-bundled"]

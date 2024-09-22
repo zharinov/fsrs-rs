@@ -195,7 +195,7 @@ checksum = "79296716171880943b8470b5f8d03aa55eb2e645a4874bdbb28adb49162e012c"
 [[package]]
 name = "burn"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-core",
  "burn-train",
@@ -204,7 +204,7 @@ dependencies = [
 [[package]]
 name = "burn-autodiff"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-common",
  "burn-tensor",
@@ -216,7 +216,7 @@ dependencies = [
 [[package]]
 name = "burn-candle"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-tensor",
  "candle-core",
@@ -227,7 +227,7 @@ dependencies = [
 [[package]]
 name = "burn-common"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "async-trait",
  "derive-new",
@@ -242,7 +242,7 @@ dependencies = [
 [[package]]
 name = "burn-compute"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-common",
  "derive-new",
@@ -259,7 +259,7 @@ dependencies = [
 [[package]]
 name = "burn-core"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "bincode",
  "burn-autodiff",
@@ -287,7 +287,7 @@ dependencies = [
 [[package]]
 name = "burn-dataset"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "csv",
  "derive-new",
@@ -312,7 +312,7 @@ dependencies = [
 [[package]]
 name = "burn-derive"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "derive-new",
  "proc-macro2",
@@ -323,7 +323,7 @@ dependencies = [
 [[package]]
 name = "burn-fusion"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-common",
  "burn-tensor",
@@ -337,7 +337,7 @@ dependencies = [
 [[package]]
 name = "burn-jit"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-common",
  "burn-compute",
@@ -357,7 +357,7 @@ dependencies = [
 [[package]]
 name = "burn-ndarray"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-autodiff",
  "burn-common",
@@ -375,7 +375,7 @@ dependencies = [
 [[package]]
 name = "burn-tch"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-tensor",
  "half",
@@ -387,7 +387,7 @@ dependencies = [
 [[package]]
 name = "burn-tensor"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-common",
  "derive-new",
@@ -402,7 +402,7 @@ dependencies = [
 [[package]]
 name = "burn-train"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-core",
  "derive-new",
@@ -416,7 +416,7 @@ dependencies = [
 [[package]]
 name = "burn-wgpu"
 version = "0.13.1"
-source = "git+https://github.com/zharinov/burn.git?branch=v0.13.1+sqlite#528ba23247040da4791dcb6aa88d7f364d020b9a"
+source = "git+https://github.com/zharinov/burn.git?rev=528ba23247040da4791dcb6aa88d7f364d020b9a#528ba23247040da4791dcb6aa88d7f364d020b9a"
 dependencies = [
  "burn-common",
  "burn-compute",
